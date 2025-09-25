@@ -1,113 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backbencher Studio's Task</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <script
+      src="https://kit.fontawesome.com/cfc70750a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Task - Softvence Delta</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
-    <!-- header Section   -->
-<div>  
-
-    <nav>
-        <img src="./assets/images/logo.svg" alt="">
-        <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#hero">Why It Works</a></li>
-        <li><a href="#hero">Features</a></li>
-        <li><a href="#hero">How It Works</a></li>
-        <li><a href="#hero">Testimonials</a></li>
-        <li><a href="#hero">Before & After</a></li>
-        <li><a href="#hero">Science</a></li>
-        <li><a href="#hero">FAQs</a></li>
-        <li><a href="#hero">Shop Bundles</a></li>
-        
-    </ul>
-<button>Contact <img src="./assets/images/Arrow To Right.svg" alt=""></button>
-</nav>
-</div>
-    <!-- hero section  -->
-
-    
-
-    <div> 
-        <img src="" alt=""> 
-        <img src="" alt=""> 
-        <img src="" alt=""> 
-        <p>26k Happy Customers</p>
+  <body>
+    <header  >
+      <div  class="flex justify-center items-center">
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-times close-icon"></i>
+        </div>
+        <h1>logo</h1>
+      </div>
+      <div class="flex items-center  gap-2">
+        <nav>
+          <ul class="flex gap-2 items-center nav flex-wrap">
+            <li><a class="nav-item" href="#home">Home</a></li>
+            <li><a class="nav-item" href="#whyitworks">Why It Works</a></li>
+            <li><a class="nav-item" href="#features">Features</a></li>
+            <li><a class="nav-item" href="#howitworks">How It Works </a></li>
+            <li><a class="nav-item" href="#testimonial">Testimonials</a></li>
+            <li>
+              <a class="nav-item" href="#before&after">Before & After </a>
+            </li>
+            <li><a class="nav-item" href="#science">Science</a></li>
+            <li><a class="nav-item" href="#faqs">FAQs</a></li>
+            <li><a class="nav-item" href="#shopbundles">Shop Bundles</a></li>
+          </ul>
+        </nav>
+        <button class="primary-btn flex justify-center items-center">
+          <span>Contact Us</span><i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </header>
+    <main>
+      <!-- Hero section -->
+      <section class="hero">
+        <div class="avatar-container relative">
+          <div>
+            <img class="avatar avatar-1" src="./assets/avatar1.png" alt="" />
+            <img class="avatar avatar-2" src="./assets/avatar2.png" alt="" />
+            <img class="avatar avatar-3" src="./assets/avatar3.png" alt="" />
+            <span class="badge">26k Happy Customers</span>
+          </div>
+          <div class="text-white">
+            <h2 class="title">
+              Breathe better,<br />
+              live better!
+            </h2>
+            <p class="sub-title">
+              Discover how effortless breathing can enhance your life. <br />
+              Take the first step Today!
+            </p>
+            <button class="primary-btn flex justify-center items-center">
+              Shop Now<i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Product section -->
+      <section class="product">
+        <div class="product-images">
+          <img id="main-img" src="./assets/preview1.png" alt="" />
+          <div class="image-container">
+            <img class="preview active" src="./assets/preview1.png" alt="" />
+            <img class="preview" src="./assets/preview2.png" alt="" />
+            <img class="preview" src="./assets/preview3.png" alt="" />
+            <img class="preview" src="./assets/preview4.png" alt="" />
+          </div>
+        </div>
+        <div class="product-details" style="max-width: 536px">
+          <div>
+            <span style="font-weight: bold">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star-half" style="color: #ffd43b"></i>4.5
+            </span>
+            (500+ Reviews)
+          </div>
+          <h3 class="product-name">Noseclip</h3>
+          <p class="flex items-center gap-2">
+            <span style="color: #6b2b00; font-weight: 600; font-size: 48px"
+              >$12.00</span
+            ><span style="text-decoration: line-through; font-size: 24px"
+              >$20.00</span
+            ><span
+              class="primary-btn"
+              style="border-radius: 5px; font-size: 16px; padding: 4px 8px"
+              >SAVE 10%</span
+            >
+          </p>
+          <h3 style="margin: 10px 0px">Description:</h3>
+          <p class="popins">
+            A nasal clip is a small device typically used to pinch or secure the
+            nostrils for various purposes, such as during sports, medical
+            treatments, or personal health practices. It is usually made of
+            flexible or padded materials to ensure comfort and a secure fit.
+            Common uses include:
+          </p>
+          <div class="vector">
+            <p class="flex items-center gap-2">
+              <img src="./assets/Vector.svg" alt="" />
+              <span>Boost performance</span>
+            </p>
+            <p class="flex items-center gap-2">
+              <img src="./assets/Vector.svg" alt="" /><span>Stop snoring</span>
+            </p>
+            <p class="flex items-center gap-2">
+              <img src="./assets/Vector.svg" alt="" /><span
+                >Optimized Airflow</span
+              >
+            </p>
+            <p class="flex items-center gap-2">
+              <img src="./assets/Vector.svg" alt="" /><span
+                >100% Drug Free</span
+              >
+            </p>
+          </div>
+          <button onclick="alert('product added to cart 🚀')" style="width: 100%; margin: 20px 0px;" class="primary-btn gap-2"><span style="margin-left: 8px;">Add to Cart</span> <i class="fa-solid fa-arrow-right"></i></button>
+          <div class="pay-cards">
+            <img class="active-card" style="width: 19%;" src="./assets/apple-pay.svg" alt="">
+            <img style="width: 19%;" src="./assets/google-pay.png" alt="">
+            <img style="width: 19%;" src="./assets/master-card.png" alt="">
+            <img style="width: 19%;" src="./assets/shop-card.png" alt="">
+            <img style="width: 19%;" src="./assets/visa-card.png" alt="">
+          </div>
+          <!-- accordion -->
+           <div class="accordion">
+  <div class="accordion-item">
+    <button class="accordion-header">
+      Sizing information
+      <i class="fa-solid fa-chevron-down"></i>
+    </button>
+    <div class="accordion-content">
+      <p>Our nose clip comes in a universal size that fits most adults comfortably.</p>
     </div>
-
-    <h1>Breathe better, live better!</h1>
-    <h6>Discover how effortless breathing can enhance your life. Take the first step Today!</h6>
-
-    <button>Shop Now <img src="./assets/images/Arrow To Right.svg" alt=""></button>
-    <!-- product section  -->
-
-    <div>
-        <!-- product left image  -->
-<div>
-    <div> <img src="./assets/images/product.png" alt=""></div> 
-    <div>
-        <img src="./assets/images/product1.png" alt="">
-        <img src="./assets/images/product2.png" alt="">
-        <img src="./assets/images/product3.png" alt="">
-        <img src="./assets/images/product4.png" alt="">
-        <img src="" alt="">
+  </div>
+  <div class="accordion-item">
+    <button class="accordion-header">
+      Free resizing
+      <i class="fa-solid fa-chevron-down"></i>
+    </button>
+    <div class="accordion-content">
+      <p>If it doesn't fit perfectly, you can request a free resizing within 30 days.</p>
     </div>
-</div>
-        <!-- product right content  -->
-
-<div>
-<div>
-    <img src="./assets/images/Group.svg" alt="Rating Image">
-    <img src="./assets/images/Group.svg" alt="Rating Image">
-    <img src="./assets/images/Group.svg" alt="Rating Image">
-    <img src="./assets/images/Group.svg" alt="Rating Image">
-    <img src="./assets/images/Group.svg" alt="Rating Image">
-    <strong>4.5</strong> 
-    <p>(500+Reviews)</p>
-    
-</div>
-<h1><b>Noseclip</b></h1>
-<h1><b>$12.00</b></h1>
-<h2>$20.00</h2>
-<h3>SAVE 10%</h3>
-<h1>Description:</h1>
-<p>A nasal clip is a small device typically used to pinch or secure the nostrils for various purposes, such as during sports, medical treatments, or personal health practices. It is usually made of flexible or padded materials to ensure comfort and a secure fit. Common uses include:</p>
-
-
-<div><img src="./assets/images/Frame.png" alt=""><p>Optimized Airflow</p></div>
-<div><img src="./assets/images/Frame.png" alt=""><p>Stop snoring</p></div>
-<div><img src="./assets/images/Frame.png" alt=""><p>Optimized Airflow</p></div>
-<div><img src="./assets/images/Frame.png" alt=""><p>100% Drug Free</p></div>
-
-<button>Add to Card <img src="./assets/images/Arrow To Right.svg" alt=""></button>
-
-<!-- payment Method -->
-<div>
-    <img src="assets/images/Item → Img.png" alt="payment method">
-    <img src="assets/images/Item → Img-1.png" alt="payment method">
-    <img src="assets/images/Item → Img-2.png" alt="payment method">
-    <img src="assets/images/Item → Img-3.png" alt="payment method">
-    <img src="assets/images/Item → Img-4.png" alt="payment method">
-    <img src="assets/images/Item → Img.png" alt="payment method">
-</div>
-
-<div><p>Sizing information</p><img src="./assets/images/angle-down.svg" alt=""></div>
-<hr>
-<div><p>Free resizing</p><img src="./assets/images/angle-down.svg" alt=""></div>
-<hr>
-<div><p>Money back guarantee & free returns</p><img src="./assets/images/angle-down.svg" alt=""></div>
-<hr>
-
-
-</div>
-
+  </div>
+  <div class="accordion-item">
+    <button class="accordion-header">
+      Money back guarantee & free returns
+      <i class="fa-solid fa-chevron-down"></i>
+    </button>
+    <div class="accordion-content">
+      <p>Enjoy a 100% money-back guarantee and hassle-free returns within 60 days.</p>
     </div>
-     <script src="./js/script.js"></script> 
-</body>
+  </div>
+</div>
 
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
